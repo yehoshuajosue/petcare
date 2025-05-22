@@ -33,8 +33,10 @@ body {
     text-decoration: none;
 }
 
-/* Configuração - Seção INÍCIO*/
-#inicio {
+/* Configuração - Seção INÍCIO / CLÍNICA / FARMÁCIA / DÚVIDAS*/
+#inicio,
+#clinica,
+#farmacia {
     display: flex;
     align-items: center;
     gap: 32px;
@@ -42,12 +44,14 @@ body {
     position: relative;
 }
 
-#clinica {
+/* Configuração - Div da Seção FARMÁCIA*/
+#farmacia div {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
     display: flex;
     align-items: center;
-    gap: 32px;
-    padding: 80px 80px 24px 80px;
-    position: relative;
 }
 
 h1, h2 {
